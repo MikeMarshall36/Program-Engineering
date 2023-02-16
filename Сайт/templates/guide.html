@@ -1,27 +1,48 @@
-{%extends 'index.html'%}
+{%extends 'index1.html'%}
 {%block title%}
 Как пользоваться?
 {%endblock%}
 {%block section%}
-<ol>
-    <ul>
-    <a href="#swt">Озвучивание текста без перевода</a>
-    </ul>
-</ol>
-<img src="https://phonoteka.org/uploads/posts/2021-07/1625285838_17-phonoteka-org-p-programmnii-kod-oboi-oboi-krasivo-19.jpg" alt="Development in progress" style="width:100%;height:10%;">
-<div class="example">
-    <ol> 
-        <ul><h1 style="font-weight: bold"><span id="swt">Озвучивание текста без перевода</span></h2></ul>
-        <li><h5>#1 Убедитесь, что ваш файл использует расширение pdf или docx, иные расширения на данный момент не поддерживаются сервисом. Если у вас другие расширения необходимо воспользоваться конвертором.</h5></li>
-        <li><h5>#2 Выберите вкладку «UPLOADER»/«Загрузка файлов»</h5></li>
-        <ul><img src="static/img/uploader.jpg" alt="" style="width:15vw;height: 15vw;"><img src="static/img/uploader_menu.png" alt="" style="width:40vw;height: 10vw;"></ul>
-        <li><h5>#3 Нажмите на кнопку «Выберите файл» и выберите файл, который вы хотите озвучить.</h5></li>
-        <ul><img src="static/img/uploader_button.png" alt="" style="width:30vw;height: 15vw;"></ul>
-        <li><h5>#4 Нажмите на кнопку «Отправить»</h5></li>
-        <ul><img src="static/img/uploader_send.png" alt="" style="width:30vw;height: 15vw;"></ul>
-        <li><h5>#5. Как только исходный файл будет озвучен он автоматически загрузится на ваш компьютер. </h5></li>
-        <p>(Не закрывайте вкладку до завершения процесса)</p>
-        
-    </ol>
+
+<div class="card-deck">
+    <!-- карточка №1 -->
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">#1 Подготовка</h4>
+            <p class="card-text">Для того чтобы начать конвертацию важно помнить, что сервис поддерживает два расширения<br>
+        PDF и DOCX. Если же у вас другие расширения необходимо воспользоваться конвертором.</p>
+        </div>
+    </div>
+    <!-- карточка №2 -->
+    <div class="card">
+        <div class="card-body">
+            <h4 class="catd-title">#2 Начало работы</h4>
+            <p class="card-text">Чтобы перейти к самой конвертации необходимо выбрать вкладку "UPLOADER".<br>
+        В ней и будет происходить конвертация.</p>
+        </div>
+    </div>
+    <!-- карточка №3 -->
+    <div class="card">
+        <div class="card-body">
+            <h4 class="catd-title">#3 Как конвертировать</h4>
+            <p class="card-text">Далее нет ничего сложного: Нажимаем на кнопку "Выбрать файл", выбираем, как не странно, файл который хотим конвертировать.<br>
+        Нажимаем отправить.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="catd-title">#4 Получение файла</h4>
+            <p class="card-text">Чтобы получить конвертированный файл надо только подождать. Как только исходный файл будет конвертирован - вы получите конечный файл.<br>
+        Загрузка начнется автоматически.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="catd-title">#5 И что? Это Всё?</h4>
+            <p class="card-text">Ну да, а что? Кто-то расчитывал на книгу пользователя и подробный гайд по операцонной системе?<br>
+        У тебя есть интернет , надо - разберешься. Что, нет интернета? А как ты сюда попал?</p>
+        </div>
+    </div>
 </div>
+
 {%endblock%}
